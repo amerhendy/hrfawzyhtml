@@ -1,0 +1,88 @@
+ <html lang="ar-eg">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta charset="UTF-8">
+  <meta name="referrer" content="origin"/>
+  <meta name="referrer" content="origin-when-crossorigin"/>
+  <meta name="referrer" content="origin-when-cross-origin"/>
+  <meta name="language" content="Arabic">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content    ="light">
+  <link rel="icon" href="style/small.ico">
+  <!-- Font Awesome -->
+  <link href="style/style.css" rel="stylesheet" />
+
+  <link href="style/bootstrap.min.css" rel="stylesheet" />
+  <link href="style/bootstrap.rtl.min.css" rel="stylesheet" />
+  <link href="style/bootstrap-grid.min.css" rel="stylesheet" />
+  <link href="style/bootstrap-reboot.min.css" rel="stylesheet" />
+  <link href="style/bootstrap-utilities.min.css" rel="stylesheet" />
+  <link href="style/awesom/all.min.css" rel="stylesheet" />
+<style>
+  @media print{
+            header,#main,.sidepanel,.myOverlay,audio,audio{
+            display:none !important;
+            }
+            .bg-body-tertiary{
+            background-color: white !important;
+            }
+            table,thead,tr,td,th,tbody,tfooter{
+                border:1px solid black !important;
+            }
+            #ReadMada{
+                color:back !important;
+            }
+        }
+</style>
+</head>
+<body class="bg-body-tertiary" style="position: relative;">
+    <header class="flex-wrap justify-content-center"  id="main">
+      <div class="row">
+        <div class="col-sm btn btn-sm btn-primary" type="button" onclick="openNav()">الفهرس</div>
+        <div class="col-sm btn btn-sm btn-primary" type="button" onclick="openSearch()">بحث</div>
+        <div class="col-sm btn btn-sm btn-primary" type="button" onclick="openmoadSearch()">اختر مادة للعرض</div>
+        <div class="col-sm btn btn-sm btn-primary closebtn" id="closebtn" type="button" onclick="closeNav()">اغلاق</div>
+      </div>
+    </header>
+    <main>
+  <div id="mySidepanel" class="sidepanel" style="padding-top: 130px;">
+    <div>
+      <ul class="list-group">
+      <li role="link" class="list-group-item" style="" onclick="seemada(['frontpage'],'single');">الرئيسية</li>
+      <li class="list-group-item" style="  margin:0px;padding-top:0px;padding-bottom:0px"></li>
+      </ul>
+  </div>
+  </div>
+    <div id="myOverlay" class="overlay">
+      <div class="overlay-content">
+        <div id="searchbyword" style=""><input type="text" placeholder="بحث ...." class="form-control" id="myInput" onkeyup="filterFunction()"><div>
+          <ul class="list-group"  id="searchresult"></ul>
+        </div></div>
+        <div id="searchbymoad" style=""><div id='searchselectdiv'></div><button class="btn btn-primary px-4 rounded-pill" type="button" onclick="seemadabysearch()">عرض</button></div>
+      </div>
+    </div>
+    
+  <div class="container-fluid my-5 border" id="frontpage" style="">
+    <div class="row text-center p-5">
+      <div class="col-sm"><h1 class="text-body-emphasis">لائحة نظام العاملين</h1></div>
+      <div class="col-sm"><img src="style/hcww.gif" width="200"></div>
+      <div class="col-sm"><h3>الشركة القابضة<br> لمياه الشرب والصرف الصحى </h3></div>
+      <div class="col-sm">
+        <em>
+          حقوق التأليف والطباعة والنسخ للشركة القابضة لمياه الشرب والصرف الصحى
+          <br>
+          حقوق البرمجة والتصميم لشركة مياه الشرب والصرف الصحى بشمال وجنوب سيناء
+        </em>
+      </div>
+    </div>
+  </div>
+  <div class="row container-fluid" id="madashows" style="padding-top: 100px;" >
+  </div>
+</main>
+<script type="text/javascript"src="style/jquery-3.6.0.min.js"></script>
+<script type="text/javascript"src="style/bootstrap.min.js"></script>
+<script type="text/javascript"src="style/bootstrap.bundle.min.js"></script>
+<script type="text/javascript"src="style/fawzy.js"></script>
+</body>
+</html> 
