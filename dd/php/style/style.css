@@ -1,0 +1,144 @@
+@font-face {
+  font-family: AmerHendyAli;
+  src: url('c.ttf');
+}
+*[role=link]{
+  cursor: pointer;
+}
+#ReadMada ul,ol,li{
+  margin: 0;
+  padding-inline-start:10px !important;
+  text-justify:inter-character;
+  width: 100%;
+}
+#ReadMada ul > li{
+  list-style: none;
+  background-image: url("hcww.gif");
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-size: 10px;
+}
+html,body,table,tr,td,th,div,li,nav,ul,a,.breadcrumb,header,.section ,.pace{
+  
+              font-family: 'AmerHendyAli'!important; 
+              direction: rtl;
+          }
+      body {
+        font-family: "Lato", sans-serif;
+      }
+  
+      .bg-purple {
+          background-color: #6f42c1;
+        }
+        header{
+          top:0;
+          left:0;
+        }
+  #main{
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+  }
+  #madashows{
+    padding:0;
+    animation-fill-mode: both;
+  }
+  
+@keyframes mymove {
+from {top: 0px; background-color: yellow;}
+to {top: 200px; background-color: blue;}
+}
+#frontpage{
+  
+}
+#madasearchresult{
+  text-align: right;
+}
+      .overlay {
+    height: auto;
+    width: 100%;
+    padding-top: 150px;
+    top: 0;
+    left: 0;
+  }
+  
+  /* The content */
+  .overlay-content {
+    position: relative;
+    top: 0;
+    width: 80%;
+    text-align: center;
+    margin-top: 0;
+    margin: auto;
+  }
+  
+  /* Close button */
+  .closebtn {
+    cursor: pointer;
+  }
+  .closebtn:hover {
+    color: #000;
+  }
+  .sidepanel {
+    height: 100%; /* Specify a height */
+    width: 100%; /* 0 width - change this with JavaScript */
+    top: 0;
+    left: 0;
+    padding-top: 0px; /* Place content 60px from the top */
+    transition: 0.5s;
+  }
+  
+  /* The sidepanel links */
+  .sidepanel a {
+    padding: 0;
+    text-decoration: none;
+    color: #000;
+    display: block;
+    transition: 0.3s;
+  }
+  /* When you mouse over the navigation links, change their color */
+  .sidepanel a:hover {
+    color: #000;
+  }
+
+  ol.abjd {
+    list-style: none;
+  }  
+  ol.abjd > li::before {
+    display: inline-block;
+    width: 1em;
+    margin-right: -1.5em;
+    margin-left: 0.5em;
+    text-align: left;
+    direction: ltr;
+  }
+  
+  ol.abjd > li:nth-child(1)::before  { content: ".أ"; }
+  ol.abjd > li:nth-child(2)::before  { content: ".ب"; }
+  ol.abjd > li:nth-child(3)::before  { content: ".جـ"; }
+  ol.abjd > li:nth-child(4)::before  { content: ".د"; }
+  ol.abjd > li:nth-child(5)::before  { content: ".هـ"; }
+  ol.abjd > li:nth-child(6)::before  { content: ".و"; }
+  ol.abjd > li:nth-child(7)::before  { content: ".ز"; }
+  ol.abjd > li:nth-child(8)::before  { content: ".حـ"; }
+  ol.abjd > li:nth-child(9)::before  { content: ".ط"; }
+  ol.abjd > li:nth-child(10)::before { content: ".ى"; }
+  ol.abjd > li:nth-child(11)::before { content: ".كـ"; }
+  ol.abjd > li:nth-child(12)::before { content: ".ل"; }
+  ol.abjd > li:nth-child(13)::before { content: ".مـ"; }
+  ol.abjd > li:nth-child(14)::before { content: ".ن"; }
+  ol.abjd > li:nth-child(15)::before { content: ".س"; }
+  ol.abjd > li:nth-child(16)::before { content: ".عـ"; }
+  ol.abjd > li:nth-child(17)::before { content: ".ف"; }
+  ol.abjd > li:nth-child(18)::before { content: ".صـ"; }
+  ol.abjd > li:nth-child(19)::before { content: ".ق"; }
+  ol.abjd > li:nth-child(20)::before { content: ".ر"; }
+  ol.abjd > li:nth-child(21)::before { content: ".ش"; }
+  ol.abjd > li:nth-child(22)::before { content: ".ت"; }
+  ol.abjd > li:nth-child(23)::before { content: ".ث"; }
+  ol.abjd > li:nth-child(24)::before { content: ".خـ"; }
+  ol.abjd > li:nth-child(25)::before { content: ".ذ"; }
+  ol.abjd > li:nth-child(26)::before { content: ".ضـ"; }
+  ol.abjd > li:nth-child(27)::before { content: ".ظ"; }
+  ol.abjd > li:nth-child(28)::before { content: ".غـ"; }
+  
